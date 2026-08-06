@@ -1,0 +1,30 @@
+python-dotenv
+
+#framework/technology for ai agents
+langchain 
+langchain-core
+langchain-community
+pypdf
+langchain-chroma
+langchain-ollama
+chromadb
+langchain-mcp-adapters
+mcp
+
+
+## LLM Provider
+langchain-groq
+langchain-text-splitters
+langchain
+langchain-openai
+
+# Vector Store
+faiss-cpu
+
+# notebook
+jupyter
+ipykernel
+
+# web app
+
+streamlit

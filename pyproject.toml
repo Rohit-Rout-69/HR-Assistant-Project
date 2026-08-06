@@ -1,0 +1,25 @@
+[project]
+name = "hr-assistant"
+version = "0.1.0"
+description = "Local AI HR Assistant"
+requires-python = ">=3.11"
+
+dependencies = [
+    "langchain",
+    "langchain-ollama",
+    "langchain-chroma",
+    "langchain-community",
+    "chromadb",
+    "pypdf",
+    "python-dotenv",
+    "mcp<2",
+    "langchain-mcp-adapters",
+    "langchain-openai",
+    "streamlit>=1.61.1",
+]
+
+
+[dependency-groups]
+dev = [
+    "pytest"
+]
